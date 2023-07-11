@@ -1,8 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    /* header related style */
+    display: block;
 }
+/* header related style */
 header{
     background-color: rgba(229, 84, 115, 0.10); 
     margin: 0;
@@ -10,42 +11,43 @@ header{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
-    
+    display: block;
 
 }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+.banner-contant{
+    max-width: 600px;
 }
 .banner-text{
     text-align: justify;
 }
-.header-picture{
-    width: 635;
-    height: 800;
-    padding-top: 50;
-    padding-left: 1045;
-    padding-right: 240;
-    padding-bottom: 0;
-
+.banner .header-picture  {
+    width: 635px;
+    height: 800px;
 }
 .banner-wellcome{
     display: flex;
-    width: 708px;
+    width: 708;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 0;
 }
 .banner.text{
     display: flex;
-    width: 634px;
+    width: 634;
     padding: 517 1046 243 240;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     
 }
 .primary-button{
@@ -58,4 +60,67 @@ header{
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+}
+/* footer related style */
+footer{
+    background-color:#111010;
+    width: 1922px;
+    height: 449px;
+}
+.footer-head{
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 831px;
+    padding-right: 832px;
+    margin-bottom: 24px;
+}
+.color-dash{
+    color: #E55473;
+}
+.footer-text{
+    padding-left: 648px;
+    padding-right:649px;
+}
+.footer-bottom{
+    color: rgba(255, 255, 255, 0.40);
+    padding-left: 784px;
+    padding-right:783px;
+    padding-bottom: 128px;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Main Related Style */
+.section-first{
+    text-align: center;
+    display: block;
+}
+.section-frist-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}.frist-section-text{
+    color: rgba(39,39,39,0,60);
+    display: flex;
+    flex-direction: column;
+    width: 594px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.add-flower{
+    display: flex;
+    padding-left: 316px;
+    padding-right: 315px;
+}
+.nav-first{
+    background-color: rgb(229,84,115,0,05);
 }
