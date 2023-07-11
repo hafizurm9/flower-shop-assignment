@@ -1,0 +1,61 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    /* header related style */
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10); 
+    margin: 0;
+    border: 1px solid #000;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    
+
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    text-align: justify;
+}
+.header-picture{
+    width: 635;
+    height: 800;
+    padding-top: 50;
+    padding-left: 1045;
+    padding-right: 240;
+    padding-bottom: 0;
+
+}
+.banner-wellcome{
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner.text{
+    display: flex;
+    width: 634px;
+    padding: 517 1046 243 240;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.primary-button{
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
